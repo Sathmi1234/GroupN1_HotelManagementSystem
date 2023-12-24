@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotelBooking;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -130,6 +131,44 @@ namespace HotelBooking
         private void Home_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonInsert_Click(object sender, EventArgs e)
+        {/*
+            this.Hide();
+            CustomersForm c = new CustomersForm();
+            c.ShowDialog();*/
+        }
+
+        private void buttonLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonLogout_Click_1(object sender, EventArgs e)
+        {
+            /*this.Hide();
+            Login l = new Login();
+            l.Show();*/
+        }
+
+        private void buttonSearch_Click(object sender, EventArgs e)
+        {   /*
+            this.Hide();
+            Search l = new Search();
+            l.Show();*/
+        }
+
+        private void buttonView_Click(object sender, EventArgs e)
+        {   /*
+            this.Hide();
+            AllCustomers g = new AllCustomers();
+            g.Show();*/
         }
     }
 }
